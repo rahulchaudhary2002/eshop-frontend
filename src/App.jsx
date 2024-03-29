@@ -68,24 +68,24 @@ function App() {
                 </Route>
 
                 <Route path='/administrator'>
-                    <Route path="/login" element={<Login />} />
-                    <Route path="/register" element={<Register />} />
-                    <Route path="/verify/:token" element={<Verify />} />
-                    <Route path="/forget-password" element={<ForgetPassword />} />
-                    <Route path="/reset-password/:token" element={<ResetPassword />} />
+                    <Route path="login" element={<Login />} />
+                    <Route path="register" element={<Register />} />
+                    <Route path="verify/:token" element={<Verify />} />
+                    <Route path="forget-password" element={<ForgetPassword />} />
+                    <Route path="reset-password/:token" element={<ResetPassword />} />
                     <Route path="" element={<AdministratorLayout />} >
                         <Route path="" element={<Dashboard />} />
-                        <Route path="/change-password" element={<ChangePassword />} />
-                        <Route path="/user" element={<UserLayout />} >
+                        <Route path="change-password" element={<ChangePassword />} />
+                        <Route path="user" element={<UserLayout />} >
                             <Route path="" element={<User />} />
                         </Route>
-                        <Route path="/category" element={<CategoryLayout />} >
+                        <Route path="category" element={<CategoryLayout />} >
                             <Route path="" element={<Category />} />
                         </Route>
-                        <Route path="/product" element={<ProductLayout />} >
+                        <Route path="product" element={<ProductLayout />} >
                             <Route path="" element={<Product />} />
                         </Route>
-                        <Route path="/order" element={<OrderLayout />} >
+                        <Route path="order" element={<OrderLayout />} >
                             <Route path="" element={<Order />} />
                         </Route>
                     </Route>
