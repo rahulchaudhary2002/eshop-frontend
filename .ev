@@ -1,0 +1,3 @@
+VITE_API_URL="https://eshop-ul61.onrender.com"
+VITE_ACCESS_TOKEN_EXPIRY=1d
+VITE_REFRESH_TOKEN_EXPIRY=7d
