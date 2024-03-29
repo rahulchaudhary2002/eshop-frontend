@@ -25,6 +25,7 @@ const Footer = () => {
                                     <Link className='text-dark text-decoration-none' to="/" title="Blog">Blog</Link>
                                     <Link className='text-dark text-decoration-none' to="/" title="Contact">Contact</Link>
                                     <Link className='text-dark text-decoration-none' to="/" title="About Us">About Us</Link>
+                                    <Link className='text-dark text-decoration-none' to="/administrator" title="About Us">Vendor</Link>
                                 </div>
                             </div>
                             <div className="col-md-5">
