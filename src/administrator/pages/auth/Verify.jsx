@@ -16,7 +16,7 @@ const Verify = () => {
         } else if (res.status) {
             toast.error(res.error);
         }
-        return navigate('/administrator/login');
+        return navigate('/administrator');
     };
 
     useEffect(() => {
