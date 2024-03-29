@@ -67,7 +67,7 @@ function App() {
                     <Route path='/order' element={<TrackOrder />} />
                 </Route>
 
-                <Route path='/administrator'>
+                <Route path='/administrator/*'>
                     <Route path="login" element={<Login />} />
                     <Route path="register" element={<Register />} />
                     <Route path="verify/:token" element={<Verify />} />
