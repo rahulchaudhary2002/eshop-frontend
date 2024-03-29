@@ -1,0 +1,74 @@
+.footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #c9d5da;
+}
+
+.footer-top-brand span, 
+.footer-top-brand strong {
+	display: block;
+	line-height: 1;
+}
+
+.footer-logo img {
+	display: block;
+	height: 40px;
+}
+
+.footer-top-newsletter form {
+	display: flex;
+	width: 100%;	
+}
+
+.footer-top-newsletter input,
+.footer-top-newsletter button {
+	padding: 7px;
+	outline: none;
+	border: none;
+}
+
+.footer-top-newsletter input {
+	border: 1px solid #ebebeb;
+	width: 65%;
+    background-color: var(--gray-color);
+}
+
+.footer-top-newsletter button {
+	text-transform: uppercase;
+	width: 35%;
+	cursor: pointer;
+}
+
+.footer-top-quick-links a:hover {
+	color: var(--main-color)!important;
+}
+
+.footer-top-social {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
+.footer-top-social a {
+	display: flex;
+	background-color: var(--gray-color);
+	height: 20px;
+    width: 20px;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	border-radius: 50%;
+}
+
+.footer-top-social a:hover {
+	background-color: var(--main-color);
+	color: var(--white-color)!important;
+}
+
+.footer-bottom {
+	display: flex;
+	align-items: center;
+	padding-top: 20px;
+	border-top: 1px solid var(--gray-color);
+	margin-top: 20px;
+}
